@@ -40,11 +40,13 @@ More details below.
   ![user-registration-form-validation](https://user-images.githubusercontent.com/33348004/53510897-0c4ff800-3ae5-11e9-8689-13cedf54adac.PNG)
 
   -   login page
-    - Only users with valid id/passwords will be able to login.
+      - Only users with valid id/passwords will be able to login.
     ![login-page](https://user-images.githubusercontent.com/33348004/53510165-59cb6580-3ae3-11e9-831b-f1d5330c5fcc.PNG)
     - Validation
+      - Error message is shown if id/password doesn't exist in the database
     ![login-page-validation](https://user-images.githubusercontent.com/33348004/53510224-74054380-3ae3-11e9-81e5-e162f28cfa04.PNG)
     - The app also resrticts access based on roles
+      - Employee role is required to gain access to the customer list page (by default new users are given employee level access)
       - Employee role: users in this role will only be allowed to list and search customers.
       ![employee-access](https://user-images.githubusercontent.com/33348004/53510539-3ead2580-3ae4-11e9-9b0a-38667815cfba.PNG)
       - Manager role: users in this role will be allowed to list, add, update and search customers.
