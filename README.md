@@ -56,22 +56,21 @@ More details below.
 
 - Adding customers
   - a form is presented in which the user can enter a first name, last name and email as well as go back to the list page.
-  
-  ![customer-form](https://user-images.githubusercontent.com/33348004/53490867-ced67500-3aba-11e9-9dfc-dea6ce9975e1.PNG)
+  ![add-customer-form](https://user-images.githubusercontent.com/33348004/53511260-03abf180-3ae6-11e9-942b-9bd3d60be154.PNG)
+
  
 - updating customers
   - When a user selects an update for a particular customer, the specific user id is passed to the URL from which the details of a customer are fetched and populated in the form.
   - The user can make necessary updates and click save.
- 
-  ![update-page](https://user-images.githubusercontent.com/33348004/53490970-1ceb7880-3abb-11e9-84c2-a6bd9e77701d.PNG)
+  ![update-customer-form](https://user-images.githubusercontent.com/33348004/53511314-29d19180-3ae6-11e9-881f-9d3770b95bb0.PNG)
+
 
 - deleting customers
   - When a user selects delete, a prompt appears to confirm his action.
   - If yes, a specific user is deleted.
   - If no, the action is cancelled.
- 
-  ![delete-info](https://user-images.githubusercontent.com/33348004/53491260-f974fd80-3abb-11e9-90a3-3ad0ac19b761.PNG)
-
+  ![delete-customer](https://user-images.githubusercontent.com/33348004/53511414-67361f00-3ae6-11e9-8071-1330978f01e8.PNG)
+  
 - Search functionality
   - A search box has been added which allows a user to search by name
   - On the backend, the input name will be compared to the customer's first name or last name in the database. 
