@@ -3,9 +3,7 @@ A customer relationship management app which leverages Spring MVC, Hibernate and
 
 More details below.
 
-![Screenshot](https://github.com/RaviShankarKondoju/Web-Customer-Tracker/blob/master/customer-crudd-app-with-security-jdbc-encryption-authentication/src/main/webapp/resources/images/manager-access.PNG)
-
-# Technology
+![Screenshot](https://github.com/RaviShankarKondoju/Web-Customer-Tracker/blob/master/customer-crudd-app-with-security-jdbc-encryption-authentication/src/main/webapp/resources/images/manager-access.PNG)'
 
 - Front End
   - HTML
@@ -31,6 +29,15 @@ More details below.
     - Windows 10
     
 # Features
+
+- Security
+  -   login page
+    - Only users with valid id/passwords will be able to login.
+    ![login-page](https://user-images.githubusercontent.com/33348004/53510165-59cb6580-3ae3-11e9-831b-f1d5330c5fcc.PNG)
+    - Validation
+    ![login-page-validation](https://user-images.githubusercontent.com/33348004/53510224-74054380-3ae3-11e9-81e5-e162f28cfa04.PNG)
+
+    
 
 - Adding customers
   - a form is presented in which the user can enter a first name, last name and email as well as go back to the list page.
