@@ -54,28 +54,23 @@ More details below.
       - Admin role: users in this role will be allowed to list, add, update, delete and search customers.
       ![admin-access](https://user-images.githubusercontent.com/33348004/53510576-597f9a00-3ae4-11e9-9c3c-f2272d5c5f40.PNG)
    - Additional security
-      - if a user tries to access a page reserved for a higher role directly  through url (FOr example, Employee role user tries to access add customer page which is meant for Manager and Admin ), an access denied page is shown thereby restricting access.
+      - if a user tries to access a page reserved for a higher role directly  through url (For example, Employee role user tries to access add customer page which is meant for Manager and Admin ), an access denied page is shown thereby restricting access.
       ![unauthorized](https://user-images.githubusercontent.com/33348004/53512033-c8122700-3ae7-11e9-8410-d2ccc6d2cab9.PNG)
-
+ 
 - Adding customers
   - A form is presented in which the user can enter a first name, last name and email as well as go back to the list page.
   ![add-customer-form](https://user-images.githubusercontent.com/33348004/53511260-03abf180-3ae6-11e9-942b-9bd3d60be154.PNG)
-
  
 - updating customers
   - When a user selects an update for a particular customer, the specific user id is passed to the URL from which the details of a customer are fetched and populated in the form.
   - The user can make necessary updates and click save.
   ![update-customer-form](https://user-images.githubusercontent.com/33348004/53511314-29d19180-3ae6-11e9-881f-9d3770b95bb0.PNG)
-
-
+ 
 - deleting customers
   - When a user selects delete, a prompt appears to confirm his action.
   - If yes, a specific user is deleted.
   - If no, the action is canceled.
   ![delete-customer](https://user-images.githubusercontent.com/33348004/53511414-67361f00-3ae6-11e9-8071-1330978f01e8.PNG)
- 
- - Logout
- 
   
 - Search functionality
   - A search box has been added which allows a user to search by name
