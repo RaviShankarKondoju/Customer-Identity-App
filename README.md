@@ -1,7 +1,7 @@
 # Web-Customer-Tracker
 A customer relationship management app which leverages Spring MVC, Hibernate and MySQL database to display a list of customers and apply CRUD operations. Moreover. Spring AOP has also been used for logging.
 
-![customer-list](https://user-images.githubusercontent.com/33348004/53490609-232d2500-3aba-11e9-9efb-8f336f03080a.PNG)
+![Screenshot](https://github.com/RaviShankarKondoju/Web-Customer-Tracker/blob/master/customer-crudd-app-with-security-jdbc-encryption-authentication/src/main/webapp/resources/images/manager-access.PNG)
 
 # Technology
 
