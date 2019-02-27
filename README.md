@@ -1,5 +1,7 @@
 # Web-Customer-Tracker
-A customer relationship management app which leverages Spring MVC, Hibernate and MySQL database to display a list of customers and apply CRUD operations. Moreover. Spring AOP has also been used for logging.
+A customer relationship management app which leverages Spring MVC, Hibernate and MySQL database to display a list of customers and apply CRUD operations. Spring Security has been utilized to prevent access to the customer list page and also specific functionalities of the app based on roles. Moreover, user registration has also been implemented in which validation is performed to existing users. Also, bcrypt encryption for passwords is implemented for storing in the database. Lastly, Spring AOP has been implemented for logging. 
+
+More details below.
 
 ![Screenshot](https://github.com/RaviShankarKondoju/Web-Customer-Tracker/blob/master/customer-crudd-app-with-security-jdbc-encryption-authentication/src/main/webapp/resources/images/manager-access.PNG)
 
@@ -9,12 +11,14 @@ A customer relationship management app which leverages Spring MVC, Hibernate and
   - HTML
   - CSS
   - JavaScript
+  - Bootstrap
  
  - Back End
     - Java
     - Spring MVC
-    - Hibernate
+    - Spring Security
     - Spring AOP
+    - Hibernate
   
  - Database
     - MySQL
